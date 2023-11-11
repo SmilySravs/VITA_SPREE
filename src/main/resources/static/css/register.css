@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media  screen and (max-width:980px) {
+   
+    .header{
+        background-color:rgba(0, 0, 0, 0.233);
+       
+        color:rgb(255, 255, 255);
+        
+        
+    } 
+      button{
+     position: absolute;
+     left:50%;
+     color:black;
+     transform: translateX(-50%);
+     padding:40px 190px;
+     border:none;
+     border-radius: 10px;
+    background:linear-gradient(120deg,rgb(218, 112, 214),rgb(230,230, 250));
+     margin-top:30px;
+     cursor: pointer;
+     font-weight: bold;
+     font-size:35px;
+ }
+     html{
+     height: 100%;
+     width:100%;
+ }
+      h1{
+        padding:10px 10px;
+         position: relative;
+         left:20px;
+         font-size: 65px;
+         text-align:center;
+       
+    }
+    h2{
+       Padding:10px;
+       font-size:60px;
+    }
+     body{
+     background:linear-gradient(120deg,rgb(121, 135, 184),rgb(223, 79, 187));
+     width:100%;
+     height:100%;
+ }
+      .container{
+     width:800px;
+     background-color:white;
+     padding:15px 20px 100px 20px;
+     
+     position: absolute;
+     left: 50%;
+     top:7%;
+     transform: translateX(-50%);
+     border-radius: 20px;
+     
+     
+ }
+  input{
+     width:800px;
+     padding:25px;
+     box-sizing: border-box;
+     border:2px solid rgb(0, 0, 0);;
+     outline: none;
+     border-radius: 5px;
+     background-color: rgba(255, 255, 255, 0);
+     font-size:50px;
+     color:rgb(0, 81, 255);
+ 
+ }
+ .column2{
+     width:100%;
+ }
+ 
+ select {
+     width:100%;
+     padding:25px;
+     border-width: 2px;
+     border-radius:5px;
+     border-color: black;
+     font-size:30px;
+ }
+  label{
+     color:rgb(10, 138, 138);
+     font-size:45px;
+ }
+ 
+ svg{
+    position:absolute;
+    bottom:0;
+ right:0px;
+    z-index: -1;
+    width:100%;
+   
+ 
+ }
+ path{
+     fill:rgb(130, 82, 150);
+ }
+ }
+
+@media  screen and (min-width:981px) {
+
+    .header{
+        background-color:rgba(0, 0, 0, 0.233);
+       
+        color:rgb(255, 255, 255);
+        
+        
+    }  
+    
+svg{
+    position:absolute;
+    bottom:0;
+ right:0px;
+    z-index: -1;
+    width:100%;
+   
+ 
+ }
+ path{
+     fill:rgb(130, 82, 150);
+ }
+ h1{
+     padding:10px 10px;
+      position: relative;
+      left:20px;
+      font-size: 40px;
+    
+ }
+ h2{
+     padding-bottom:20px;
+ }
+ form{
+     display: flex;
+     flex-direction: column;
+     gap:10px;
+ }
+
+ .container{
+     width:550px;
+     background-color:white;
+     padding:15px 20px 70px 20px;
+     
+     position: absolute;
+     left: 50%;
+     top:50%;
+     transform: translate(-50%,-50%);
+     border-radius: 5px;
+ }
+ .row1{
+     display: flex;
+     width:100%;
+     justify-content: space-between;
+ 
+ }
+ button{
+     position: absolute;
+     left:50%;
+     color:rgba(0, 0, 0, 0.85);
+     transform: translateX(-50%);
+     padding:10px 60px;
+     border:none;
+     border-radius: 7px;
+     background:linear-gradient(120deg,rgb(121, 135, 184),rgb(223, 79, 187));
+     margin-top:20px;
+     cursor: pointer;
+     font-weight: bold;
+ }
+ input{
+     width:250px;
+     padding:10px;
+     box-sizing: border-box;
+     border:2px solid rgb(0, 0, 0);;
+     outline: none;
+     border-radius: 5px;
+     background-color: rgba(255, 255, 255, 0);
+     font-size:15px;
+     color:rgb(0, 81, 255);
+ 
+ }
+ label{
+     color:rgb(10, 138, 138);
+     font-size:18px;
+ }
+ 
+ body{
+     background:linear-gradient(120deg,rgb(121, 135, 184),rgb(223, 79, 187));
+     
+ }
+ html{
+     height: 100%;
+     width:100%;
+ }
+ .column2{
+     width:45%;
+ }
+ 
+ select {
+     width:100%;
+     padding:10px;
+     border-width: 2px;
+     border-radius:5px;
+     border-color: black;
+ }
+ .button:hover{
+     background:linear-gradient(120deg,rgb(218, 112, 214),rgb(230,230, 250));
+     color: black;
+ }
+    
+}
